@@ -7,6 +7,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WTL_GUIDE", "WTL_GUIDE\WTL_
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ATL_GUI", "ATL_GUI\ATL_GUI.vcxproj", "{68EBE37B-D7D6-45DF-B526-3BF06A99CA9E}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MyFirstWTLWindow", "MyFirstWTLWindow\MyFirstWTLWindow.vcxproj", "{66D3791B-9C96-4EEF-95E6-C105D883FBEC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -31,6 +33,14 @@ Global
 		{68EBE37B-D7D6-45DF-B526-3BF06A99CA9E}.Release|x64.Build.0 = Release|x64
 		{68EBE37B-D7D6-45DF-B526-3BF06A99CA9E}.Release|x86.ActiveCfg = Release|Win32
 		{68EBE37B-D7D6-45DF-B526-3BF06A99CA9E}.Release|x86.Build.0 = Release|Win32
+		{66D3791B-9C96-4EEF-95E6-C105D883FBEC}.Debug|x64.ActiveCfg = Debug|x64
+		{66D3791B-9C96-4EEF-95E6-C105D883FBEC}.Debug|x64.Build.0 = Debug|x64
+		{66D3791B-9C96-4EEF-95E6-C105D883FBEC}.Debug|x86.ActiveCfg = Debug|Win32
+		{66D3791B-9C96-4EEF-95E6-C105D883FBEC}.Debug|x86.Build.0 = Debug|Win32
+		{66D3791B-9C96-4EEF-95E6-C105D883FBEC}.Release|x64.ActiveCfg = Release|x64
+		{66D3791B-9C96-4EEF-95E6-C105D883FBEC}.Release|x64.Build.0 = Release|x64
+		{66D3791B-9C96-4EEF-95E6-C105D883FBEC}.Release|x86.ActiveCfg = Release|Win32
+		{66D3791B-9C96-4EEF-95E6-C105D883FBEC}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
