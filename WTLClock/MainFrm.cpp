@@ -33,6 +33,8 @@ LRESULT CMainFrame::OnCreate(UINT /*uMsg*/, WPARAM /*wParam*/, LPARAM /*lParam*/
 	pLoop->AddMessageFilter(this);
 	pLoop->AddIdleHandler(this);
 
+	UIEnable(ID_CLOCK_START, false);
+	UIEnable(ID_CLOCK_STOP, true);
 	return 0;
 }
 
@@ -66,4 +68,18 @@ LRESULT CMainFrame::OnAppAbout(WORD /*wNotifyCode*/, WORD /*wID*/, HWND /*hWndCt
 	CAboutDlg dlg;
 	dlg.DoModal();
 	return 0;
+}
+
+void CMainFrame::OnStart(UINT uCode, int nID, HWND hwndCtrl)
+{
+	UIEnable(ID_CLOCK_START, false);
+	UIEnable(ID_CLOCK_STOP, true);
+	m_view.StartClock();
+}
+
+void CMainFrame::OnStop(UINT uCode, int nID, HWND hwndCtrl)
+{
+	UIEnable(ID_CLOCK_START, true);
+	UIEnable(ID_CLOCK_STOP, false);
+	m_view.StopClock();
 }
