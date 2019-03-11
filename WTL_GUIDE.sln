@@ -11,6 +11,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MyFirstWTLWindow", "MyFirst
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WTLClock", "WTLClock\WTLClock.vcxproj", "{38267381-70F0-451D-8C3E-5DBB8F90E736}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WTLClock2", "WTLClock2\WTLClock2.vcxproj", "{A140C6EE-0142-4064-BE8F-FF0A5F6C7258}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -51,6 +53,14 @@ Global
 		{38267381-70F0-451D-8C3E-5DBB8F90E736}.Release|x64.Build.0 = Release|x64
 		{38267381-70F0-451D-8C3E-5DBB8F90E736}.Release|x86.ActiveCfg = Release|Win32
 		{38267381-70F0-451D-8C3E-5DBB8F90E736}.Release|x86.Build.0 = Release|Win32
+		{A140C6EE-0142-4064-BE8F-FF0A5F6C7258}.Debug|x64.ActiveCfg = Debug|x64
+		{A140C6EE-0142-4064-BE8F-FF0A5F6C7258}.Debug|x64.Build.0 = Debug|x64
+		{A140C6EE-0142-4064-BE8F-FF0A5F6C7258}.Debug|x86.ActiveCfg = Debug|Win32
+		{A140C6EE-0142-4064-BE8F-FF0A5F6C7258}.Debug|x86.Build.0 = Debug|Win32
+		{A140C6EE-0142-4064-BE8F-FF0A5F6C7258}.Release|x64.ActiveCfg = Release|x64
+		{A140C6EE-0142-4064-BE8F-FF0A5F6C7258}.Release|x64.Build.0 = Release|x64
+		{A140C6EE-0142-4064-BE8F-FF0A5F6C7258}.Release|x86.ActiveCfg = Release|Win32
+		{A140C6EE-0142-4064-BE8F-FF0A5F6C7258}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
